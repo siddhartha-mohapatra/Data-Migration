@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "Data Migration", "Data Migration.dtproj", "{F19D53BC-6D74-42F0-B83B-E6C85F67E254}"
+EndProject
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "UserDataMigration", "..\UserDataMigrations\UserDataMigration.dtproj", "{2201F364-4EBF-4F49-AEB0-C7DDDEFEEBA1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F19D53BC-6D74-42F0-B83B-E6C85F67E254}.Development|Default.ActiveCfg = Development
+		{F19D53BC-6D74-42F0-B83B-E6C85F67E254}.Development|Default.Build.0 = Development
+		{2201F364-4EBF-4F49-AEB0-C7DDDEFEEBA1}.Development|Default.ActiveCfg = Development
+		{2201F364-4EBF-4F49-AEB0-C7DDDEFEEBA1}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BDE9E096-0BF4-43DB-B879-B232C8943E34}
+	EndGlobalSection
+EndGlobal
